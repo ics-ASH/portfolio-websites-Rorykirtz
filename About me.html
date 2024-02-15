@@ -1,4 +1,5 @@
 <html>
+    <head>
 <style>
 header {
 background-color:  rgb(39, 117, 122);
@@ -11,8 +12,30 @@ height: 300px;
 background:rgb(77, 192, 200) ;
 padding: 20px;
 }
-
+article { 
+float: right;
+padding: 20px;
+width: 70%;
+background-color: rgb(129, 187, 192);
+}
+section ::after{
+content :"";
+display: table;
+clear :both;
+}
+footer{
+background-color: rgb(39, 117, 122);
+padding: 10px;
+text-align: center;
+}
+{
+nav,article {
+width: 100%;
+height: auto;
+}
+}
 </style>
+</head>
 <h1> About Me </h1>
 <a href="index.html"> Rory's Portfolio</a>
 </html>

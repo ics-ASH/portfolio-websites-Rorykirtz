@@ -4,38 +4,63 @@
 header {
 background-color:  rgb(39, 117, 122);
 padding:20px;
+text-align: center;
 }
-nav{
+nav {
 float: left;
 width: 30%;
-height: 300px;
-background:rgb(77, 192, 200) ;
+height: 400px;
+background:rgb(111, 163, 167) ;
 padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 article { 
-float: right;
+float: middle;
 padding: 20px;
-width: 70%;
-background-color: rgb(129, 187, 192);
+width: auto;
+height: 400px;
+text-align: center;
+background-color: rgb(129, 179, 192);
 }
 section ::after{
-content :"";
+content :" ";
 display: table;
 clear :both;
 }
-footer{
+footer {
 background-color: rgb(39, 117, 122);
 padding: 10px;
+height:100;
 text-align: center;
 }
+(max-width: 600px) 
 {
-nav,article {
-width: 100%;
-height: auto;
-}
+    nav, article {
+  width: 100%;  
+  height: auto;   
+    }
 }
 </style>
 </head>
-<h1> About Me </h1>
-<a href="index.html"> Rory's Portfolio</a>
-</html>
+<header>
+    <h1> About Me </h1>
+</header>
+<section>
+    <nav>
+        <ul>
+    <a href="index.html"> Rory's Portfolio</a>
+</ul>
+</nav>
+</section>
+<article>
+<h1>Hello</h1>
+</article>
+<footer>
+<p>footer</p>
+</footer>
+   
+    </html>
+</body>
